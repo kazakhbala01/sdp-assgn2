@@ -3,7 +3,7 @@
 ## What did I added
 
 ### A new decorator class that sets description to choosen strategy
-```java
+```
 
 //and new interface that extends Strategy pattern interface
 public interface DcountCalcDecorator extends DcountCalculationStrategy {
@@ -12,7 +12,7 @@ public interface DcountCalcDecorator extends DcountCalculationStrategy {
 ```
 
 
-```java
+```
 public class DescriptionDecorator implements DcountCalcDecorator {
     private DcountCalculationStrategy strategy;
 
