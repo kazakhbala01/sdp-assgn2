@@ -4,7 +4,6 @@
 
 ### A new decorator class that sets description to choosen strategy
 ```
-
 //and new interface that extends Strategy pattern interface
 public interface DcountCalcDecorator extends DcountCalculationStrategy {
     String getDescription();
