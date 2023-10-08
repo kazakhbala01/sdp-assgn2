@@ -4,11 +4,14 @@
 
 ### A new decorator class that sets description to choosen strategy
 ``java
+
+//and new interface that extends Strategy pattern interface
 public interface DcountCalcDecorator extends DcountCalculationStrategy {
     String getDescription();
 }
+``
 
-//and new interface that extends Strategy pattern interface
+``java
 
 public class DescriptionDecorator implements DcountCalcDecorator {
     private DcountCalculationStrategy strategy;
